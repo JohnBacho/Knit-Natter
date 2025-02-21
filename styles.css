@@ -489,8 +489,6 @@ hr {
   box-shadow: none;
 }
 
-/* about us*/
-
 /* About Us Section */
 .about-section {
   color: #333;
@@ -687,8 +685,8 @@ center {
 
 #image-container {
   position: relative;
-  width: 100%;
-  max-width: 800px;
+  width: 80%;
+  max-width: 900px;
   margin: 40px auto;
 }
 #image-container img {
@@ -700,15 +698,36 @@ center {
   position: absolute;
   bottom: 20px;
   left: 50%;
+  font-family: "Playfair Display", serif;
+  background-color: rgba(0, 0, 0, 0.55);
   transform: translateX(-50%);
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+  color: #FFF8DC;
+  padding: 10px 25px;
+  border: 2px solid #FFFFF0;
+  border-radius: 50px;
   font-size: 1.1rem;
   text-decoration: none;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
+
 #overlay-button:hover {
-  background-color: #0056b3;
+  background-color: #fae48e !important;
+  transform: translateX(-50%) scale(1.05);
+  border-color: #fae48e;
+  color: #333;
+}
+
+#EventsCoffeeContainer{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#EventsCoffeetitle{
+  font-family: "Playfair Display", serif;
+}
+
+#EventsCoffeep{
+  font-family: "Source Sans", sans-serif !important;
+  color: #555555;
 }
