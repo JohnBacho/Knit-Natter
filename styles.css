@@ -754,11 +754,11 @@ center {
   transform: scale(1.05);
 }
 
-#location{
+#location {
   margin-top: -20px;
 }
 
-#when{
+#when {
   font-size: 16px;
 }
 .event-container {
@@ -782,7 +782,7 @@ center {
 }
 
 .event-image {
-  width:450px;
+  width: 450px;
   height: 350px;
   object-fit: cover;
   border-radius: 15px;
@@ -809,4 +809,18 @@ center {
   font-size: 1rem;
   color: #555;
   font-family: "Source Sans", sans-serif !important;
+}
+
+.round-img {
+  border-radius: 50px !important;
+}
+
+.charityheader h3 {
+  font-family: "Playfair Display", serif;
+  font-size: xx-large;
+}
+
+.charityheader p {
+  font-family: "Source Sans", sans-serif !important;
+  font-size: large;
 }
