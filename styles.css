@@ -146,7 +146,7 @@ body {
   color: #707070;
 }
 
-@media (max-width: 856px) {
+@media (max-width: 956px) {
   .card {
     width: 90vw;
     margin: auto;
